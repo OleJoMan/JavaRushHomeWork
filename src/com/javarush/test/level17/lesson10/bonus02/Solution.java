@@ -63,7 +63,7 @@ public class Solution {
             else if(args[2 + i*3].equals("ж"))
                 allPeople.add(Person.createFemale(name, date));
 
-            System.out.println(allPeople.get(allPeople.size() - 1));
+            System.out.println(allPeople.size() - 1);
         }
 
 
